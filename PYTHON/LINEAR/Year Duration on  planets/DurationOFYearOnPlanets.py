@@ -14,7 +14,7 @@ v = input("Orbital Speed(Km/s): ")
 r = eval(r)
 v = eval(v)
 
-# lets convert the radius from Million kilometers to just meters
+# lets convert the radius from Million kilometers to just Kilometers
 
 r = r * 10**6
 
