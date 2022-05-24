@@ -11,7 +11,7 @@
 
 num = Math.random() * 900 + 100
 
-//  with int() you can discard the decimal part
+//  with parseInt() you can discard the decimal part
 num = parseInt(num)
 print(`num:{num}`)
 //  At this stage, we have gotten the required random number
