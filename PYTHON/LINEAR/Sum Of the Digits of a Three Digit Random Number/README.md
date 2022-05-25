@@ -1,1 +1,1 @@
-Calculate the sum of the digits of a random three-digit number
+# Calculate the sum of the digits of a random three-digit number
