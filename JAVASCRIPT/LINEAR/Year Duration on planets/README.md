@@ -1,1 +1,0 @@
-# Calculate the duration of the year on planets
