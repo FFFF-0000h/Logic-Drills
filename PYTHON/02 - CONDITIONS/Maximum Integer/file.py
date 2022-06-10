@@ -1,4 +1,4 @@
-# Collct inputs
+# Collect inputs
 a = input("enter num: ")
 b = input("enter num: ")
 c = input("enter num: ")
@@ -10,7 +10,7 @@ if b <= a >= c:
 # Otherwise, we check the number B,
 # that is greater than both a and c.
 elif a <= b >= c:
-    print(b,"is tha maximum")
+    print(b,"is the maximum")
 # Otherwise, we check the number C,
 # that it is greater than both a and b.
 elif a  <=c >= b:
