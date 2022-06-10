@@ -1,0 +1,1 @@
+# The number is entered from the keyboard. if it is less than zer0, output - 1. if it is greater than zer0, output 1. Otherwise Output 0.

@@ -1,0 +1,1 @@
+# A natural number is given. Determine if it is even or odd.
