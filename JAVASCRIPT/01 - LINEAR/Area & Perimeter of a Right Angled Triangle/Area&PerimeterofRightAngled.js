@@ -18,14 +18,14 @@ let  AC = parseFloat(prompt("Length of the second leg: "));
  *  returns a squareroot.
 */
 
-const BC = Math.sqrt(AB**2 + AC**2)
+const BC = Math.sqrt(AB**2 + AC**2);
 
 //  The area of a triangle is equal to half of the
 //  area of the corresponding rectangle
-const area = (AB*AC) / 2
+const area = ((AB*AC) / 2);
 
 //  Perimeter is the sum of all sides.
-const perimeter = AB + AC + BC
+const perimeter = (AB + AC + BC);
 
 
-console.log(`area of the triangle: ${area}\nperimeter of the triangle: ${perimeter}`)
+console.log(`area of the triangle: ${area}\nperimeter of the triangle: ${perimeter}`);
