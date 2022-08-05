@@ -1,20 +1,22 @@
 /*  Here is a program to calculate the perimeter
  *  and area of a right-angled triangle
-*/  using two legs entered as input
+ *  using two legs entered as input
+*/
 
 
 
 //  prompt() returns a string
 //  parseFloat() returns real number if it can be converted 
 let  AB = parseFloat(prompt("Length of the first leg: "));
-let AC = parseFloat(prompt("Length of the second leg: "));
+let  AC = parseFloat(prompt("Length of the second leg: "));
 
 /*  find the hypotenus
  *  by the pythagorean theorem:
  *  "the sum of the squares of the legs
  *  is equal to the sqaure of the hypotenuse."
  *  The Math.Sqrt() function of the math module
-*/  returns a squareroot.
+ *  returns a squareroot.
+*/
 
 const BC = Math.sqrt(AB**2 + AC**2)
 
