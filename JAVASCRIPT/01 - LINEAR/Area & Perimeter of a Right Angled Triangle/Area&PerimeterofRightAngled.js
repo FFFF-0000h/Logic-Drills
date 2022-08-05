@@ -10,12 +10,12 @@
 let  AB = parseFloat(prompt("Length of the first leg: "));
 let  AC = parseFloat(prompt("Length of the second leg: "));
 
-/*  find the hypotenus
+/*  Find the hypotenuse
  *  by the pythagorean theorem:
  *  "the sum of the squares of the legs
  *  is equal to the sqaure of the hypotenuse."
  *  The Math.Sqrt() function of the math module
- *  returns a squareroot.
+ *  returns a square root.
 */
 
 const BC = Math.sqrt(AB**2 + AC**2);
@@ -24,7 +24,7 @@ const BC = Math.sqrt(AB**2 + AC**2);
 //  area of the corresponding rectangle
 const area = ((AB*AC) / 2);
 
-//  Perimeter is the sum of all sides.
+//  Perimeter is the sum of all sides
 const perimeter = (AB + AC + BC);
 
 
